@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "IGB101.sln"
+    "dotnet.defaultSolution": "Pickup-Game.sln"
 }
