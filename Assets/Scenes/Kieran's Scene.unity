@@ -8184,6 +8184,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2664611327374138500, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 483508289}
+    - targetCorrespondingSourceObject: {fileID: 2664611327374138500, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 483508290}
   m_SourcePrefab: {fileID: 100100000, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
 --- !u!1 &445134633 stripped
 GameObject:
@@ -8305,6 +8308,14 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!81 &483508290
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483508283}
+  m_Enabled: 1
 --- !u!43 &567219588
 Mesh:
   m_ObjectHideFlags: 0
@@ -9864,7 +9875,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1060925802}
   - component: {fileID: 1060925801}
-  - component: {fileID: 1060925800}
   - component: {fileID: 1060925799}
   - component: {fileID: 1060925798}
   - component: {fileID: 1060925803}
@@ -9940,14 +9950,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1060925800
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060925797}
-  m_Enabled: 1
 --- !u!20 &1060925801
 Camera:
   m_ObjectHideFlags: 0
