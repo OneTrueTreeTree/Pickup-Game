@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Levelswitch : MonoBehaviour
 {
     GameManager gameManager;
-    public string nexylevel;
+    public string nextlevel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,8 +18,8 @@ public class Levelswitch : MonoBehaviour
         if(otherObject.transform.tag == "Player")
             
             if(gameManager.levelcomplete)
-                SceneManager.LoadScene(nexylevel);
-                SceneManager.LoadScene(nexylevel);
+                SceneManager.LoadScene(nextlevel);
+                
     }
 
 
