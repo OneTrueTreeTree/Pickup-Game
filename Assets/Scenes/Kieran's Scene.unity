@@ -21329,7 +21329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1463f5575b90f42a305c68f4c0f98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nexylevel: Ben's Scene
+  nextlevel: Ben's Scene
 --- !u!95 &2082100856
 Animator:
   serializedVersion: 7

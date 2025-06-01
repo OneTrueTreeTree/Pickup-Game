@@ -7432,7 +7432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1463f5575b90f42a305c68f4c0f98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nexylevel: Billy's Scene
+  nextlevel: Billy's Scene
 --- !u!65 &1697513359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7564,7 +7564,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1007366274}
+  m_Mesh: {fileID: 1188063742}
 --- !u!33 &1707773823
 MeshFilter:
   m_ObjectHideFlags: 10
